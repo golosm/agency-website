@@ -1,0 +1,82 @@
+/* reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* general */
+
+.wrapper {
+  width: 100vw;
+  height: 400vh;
+  background-color: #fcfcfc;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* header */
+
+/* header - contact bar */
+
+.contact-bar {
+  display: flex;
+  width: 100vw;
+  height: 5vh;
+  padding: 5px;
+  background-color: #0c72d1;
+  color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-container li {
+  padding: 0 20px;
+}
+
+/* navigation */
+
+nav {
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #b3aeae;
+}
+
+nav .icon {
+  padding: 0 50px;
+  font-size: 25px;
+}
+
+nav .menu-list {
+  display: flex;
+  width: 45%;
+  padding: 0 25px;
+  justify-content: space-between;
+}
+
+.menu-list li {
+  padding: 20px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-list li:hover {
+  background-color: #818181;
+  cursor: pointer;
+}
+
+.menu-list li a {
+  text-decoration: none;
+  color: #fff;
+}
